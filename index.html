@@ -177,16 +177,9 @@
       
         <h1 id="Electron-Vue-ElementUI开发笔记"><a href="#Electron-Vue-ElementUI开发笔记" class="headerlink" title="Electron-Vue-ElementUI开发笔记"></a>Electron-Vue-ElementUI开发笔记</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>​       Electron 可以让你使用纯 JavaScript 调用丰富的原生(操作系统) APIs 来创造桌面应用。 你可以把它看作一个 Node. js 的变体，它专注于桌面应用而不是 Web 服务器端。</p>
 <p>​       这不意味着 Electron 是某个图形用户界面（GUI）库的 JavaScript 版本。 相反，Electron 使用 web 页面作为它的 GUI，所以你能把它看作成一个被 JavaScript 控制的，精简版的 Chromium 浏览器。</p>
-<p>**</p>
-<h3 id="一，技术栈"><a href="#一，技术栈" class="headerlink" title="一，技术栈"></a>一，技术栈</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">- Electron</span><br><span class="line">- Vue.js </span><br><span class="line">- Vuetify 【vue ui库，实现Material Design设计风格】</span><br><span class="line">- Quill 【富文本编辑器】</span><br><span class="line">- Sortable 【拖放排序插件】</span><br><span class="line">- lowdb 【轻量级本地JSON数据库】</span><br></pre></td></tr></table></figure>
-
-<h3 id="二，产品功能愿景"><a href="#二，产品功能愿景" class="headerlink" title="二，产品功能愿景"></a>二，产品功能愿景</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">-简易看板</span><br><span class="line">-里程碑整理</span><br><span class="line">-拖放笔记</span><br><span class="line">-添加Tag</span><br><span class="line">-按标题或标签搜索注释</span><br><span class="line">-图片附件</span><br><span class="line">-导出和导入项目（JSON格式）</span><br><span class="line">-黑暗模式和自定义（WIP，更多自定义功能）</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h2><h3 id="一，项目搭建"><a href="#一，项目搭建" class="headerlink" title="一，项目搭建"></a>一，项目搭建</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"># 安装node.js</span><br><span class="line"># 安装 vue-cli 和 脚手架样板代码</span><br><span class="line">npm install -g vue-cli</span><br><span class="line">vue init simulatedgreg&#x2F;electron-vue my-project</span><br><span class="line"># 安装依赖</span><br><span class="line">cd my-project</span><br><span class="line">yarn # 或者 npm install</span><br><span class="line"># 运行程序</span><br><span class="line">yarn run dev # 或者 npm run dev</span><br></pre></td></tr></table></figure>
-
-
+        
+          <a class="article-more-a" href="/2020/01/09/Electron-Vue/#more">more >></a>
+        
       
 
       
